@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <!--phần đầu-->
+    <head>
+        <title> Học lập trình tại F8 </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../CSS/main.css">
+    </head>
+    <!-- phần thân -->
+    <body>
+        <form>
+            họ tên
+            <input type="text" placeholder="nhập tên" value="Thái" readonly>
+            <br>
+            số điện thoại
+            <input type="number" name="">
+            <br>
+            Email
+            <input type="email" name="">
+            <br>
+            mật khẩu
+            <input type="password" name="">
+            <br>
+            giới tính
+            <input type="radio" name="gioi_tinh">nam
+            <input type="radio" name="gioi_tinh">nữ
+            <br>
+            ngày sinh
+            <input type="date" name="">
+            <br>
+            Lớp
+            <select>
+                <option>Lập trình</option>
+                <option>kinh doanh</option>
+                <option>kế toán</option>
+            </select>
+            <br>
+            sở thích
+            <input type="checkbox" name="">xem phim
+            <input type="checkbox" name="">
+            nghe nhạc
+            <input type="checkbox" name="">
+            nhảy dây
+            <br>
+            Ảnh đại diện
+            <input type="file" name="">
+            <br>
+            mô tả bản thân
+            <textarea></textarea>
+            <br>
+            reset
+            <input type="reset" name="">
+
+            <br>
+            <input type="submit" name="">
+        </form>
+
+    </body>
+</html>
